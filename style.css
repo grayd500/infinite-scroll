@@ -1,0 +1,11 @@
+
+html{
+    /* prevent padding from stretching page and causing scrollbar */
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* stretch background to full height of the screen even if content insn't enough to do so*/
+    min-height: 100vh;
+}
